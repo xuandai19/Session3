@@ -6,7 +6,7 @@ CREATE DATABASE "LibraryDB";
 -- 2. Tạo Schema
 CREATE SCHEMA library;
 
--- 3. Tạo bảng Books trong schema library
+-- 3. Tạo bảng trong schema library
 CREATE TABLE library.books (
     book_id SERIAL PRIMARY KEY,
     title VARCHAR(100) NOT NULL,
