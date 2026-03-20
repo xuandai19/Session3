@@ -11,7 +11,7 @@ CREATE TABLE Employees (
     emp_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     dob DATE,
-    department_id INT REFERENCES Departments(department_id) ON DELETE SET NULL
+    department_id INT REFERENCES Departments(department_id) 
 );
 
 CREATE TABLE Projects (
