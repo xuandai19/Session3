@@ -16,8 +16,8 @@ CREATE TABLE library.books (
 );
 
 CREATE TABLE library.members(
-    member_id SERIAL PRIMARY KEY,
+    member_id SERIAL PRIMARY KEY,    
     name TEXT NOT NULL,
     email TEXT UNIQUE NOT NULL,
     join_date DATE DEFAULT CURRENT_DATE
-)
+);
